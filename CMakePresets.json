@@ -1,0 +1,22 @@
+{
+    "version": 3,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 18
+    },
+    "configurePresets": [
+        {
+            "name": "default",
+            "displayName": "Default Config",
+            "description": "Default build using Ninja generator",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/out/build/",
+            "installDir": "${sourceDir}/out/install/",
+            "environment": {
+                "PICO_SDK_PATH": "~/pico-sdk/"
+            }
+        }
+    ],
+    "buildPresets": [],
+    "testPresets": []
+}
