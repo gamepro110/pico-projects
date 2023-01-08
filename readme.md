@@ -27,3 +27,9 @@ flowchart TB
     end
 
 ```
+
+## notes
+
+### archlinux specific
+
+- install `arm-none-eabi-newlib arm-none-eabi-gcc arm-none-eabi-binutils arm-none-eabi-gdb` for compiler
