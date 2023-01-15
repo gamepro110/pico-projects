@@ -13,6 +13,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 pico_sdk_init()
 
+if(NOT TARGET tinyusb_device)
+    message(ERROR "TunyUSB submodule is not initialized in the sdk")
+endif(NOT TARGET tinyusb_device)
+
 add_subdirectory(test)
 add_subdirectory(utility)
 add_subdirectory(blink)
