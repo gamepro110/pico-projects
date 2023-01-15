@@ -27,3 +27,7 @@ flowchart LR
         gnd --- pins
     end
 ```
+
+## To Do
+
+- split pico and pico_w code for this dir

@@ -1,5 +1,2 @@
-# blink (build-in) led
-
-include(${PROJECT_SOURCE_DIR}/addProgram.cmake)
-
-addProgram("blink" "")
+add_subdirectory(pico)
+add_subdirectory(pico_w)

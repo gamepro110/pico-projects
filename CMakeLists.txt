@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.18)
 
+set(PICO_BOARD "pico" CACHE STRING "select which rp2040 board is used for compiling")
+set_property(CACHE PICO_BOARD PROPERTY STRINGS pico pico_w)
+
 set(PICO_SDK_PATH $ENV{HOME}/pico-sdk/)
 include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 

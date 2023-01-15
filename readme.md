@@ -30,6 +30,13 @@ flowchart TB
 
 ## notes
 
+### suported boards
+
+- pico
+- pico_w
+
+>might add other boards, but these are the ones i have
+
 ### archlinux specific
 
 - install `arm-none-eabi-newlib arm-none-eabi-gcc arm-none-eabi-binutils arm-none-eabi-gdb` for compiler
