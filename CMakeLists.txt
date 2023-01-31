@@ -22,4 +22,5 @@ endif(NOT TARGET tinyusb_device)
 
 add_subdirectory(test)
 add_subdirectory(utility)
+add_subdirectory(multicore)
 add_subdirectory(blink)
